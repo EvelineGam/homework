@@ -4,4 +4,4 @@ def test_function():
     inner_function()
 
 
-inner_function()
+inner_function() # выдаст ошибку, так как функция inner_function не существует вне функции test_function
