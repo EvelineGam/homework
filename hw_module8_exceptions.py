@@ -12,7 +12,7 @@ def personal_sum(numbers):
 def calculate_average(numbers):
     try:
         summ = personal_sum(numbers)
-        print(summ)
+        #print(summ)
         return summ[0] / (len(numbers) - summ[1])
 
 
